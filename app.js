@@ -5,7 +5,7 @@ var x = "hello";
 
 angular.module('myFirstApp', [])
 
-.controller('MyFirstController', function functionName($scope) {
+.controller('MyFirstController', function ($scope) {
  $scope.name = "YashGogineni";
 });
 
